@@ -1,0 +1,195 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  /* overflow: hidden; */
+}
+
+.header{
+  background: url(./src/Layer_8.png) no-repeat top center/cover;
+}
+
+.services{
+  background: url(./src/Layer_4.png) no-repeat center center/cover;
+}
+
+.view-height-100{
+  height: 100vh;
+}
+
+/* Color styles */
+.text-dark{
+  color: #3c3c3c;
+}
+
+.text-white{
+  color: #ffffff;
+}
+
+.border{
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-style: solid;
+}
+
+.border-dark{
+  border-color: #3c3c3c;
+}
+
+.border-white{
+  border-color: #ffffff;
+}
+
+/* Font styles */
+
+.text-small{
+  font-size: 0.875rem;
+}
+
+.text-light{
+  font-weight: 300 !important;
+}
+
+.text-header{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-xl{
+  font-size: 54px;
+  letter-spacing: 8.62px;
+}
+
+.header-l{
+  font-size: 34px;
+}
+
+.header-m{
+  font-size: 26px;
+}
+
+.header-s{
+  font-size: 20px;
+}
+
+.header-xs{
+  font-size: 15px;
+  letter-spacing: 0.9px;
+  font-weight: 400 !important;
+  line-height: 29px;
+}
+
+/* container styles */
+.container{
+  width: 46%;
+  margin: 0 auto;
+  position:relative;
+}
+
+.container-centered{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-bottom{
+  position:absolute;
+  top:90%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-header{
+  position:absolute;
+  display:block;
+  padding-left:5rem;
+  padding-right:5rem;
+  z-index: 54;
+  letter-spacing: 0.56rem;
+  background: transparent;
+  top:-0.3rem;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-inner{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container-tiny{
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* spacing styles */
+
+.margin-bottom-1{
+  margin-bottom: 0.5rem;
+}
+
+.margin-bottom-2{
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-3{
+  margin-bottom: 3rem;
+}
+
+.margin-bottom-4{
+  margin-bottom: 3.5rem;
+}
+
+.margin-bottom-5{
+  margin-bottom: 5rem;
+}
+
+.margin-top-4{
+  margin-top: 4rem
+}
+
+.margin-y-2{
+  margin-bottom:1rem;
+  margin-top:1rem;
+}
+
+.margin-y-3{
+  margin-bottom:1.5rem;
+  margin-top:1.5rem;
+}
+
+.margin-y-8{
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+}
+
+.padding-y-8{
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+.padding-y-10{
+  padding-bottom:10rem;
+  padding-top:10rem;
+}
+
+/* Line height styles */
+
+.line-height-small{
+  line-height: 1.5rem;
+}
+
+.line-height-default{
+  line-height: 1.62rem;
+}
+
+/* card styles */
+.card{
+  margin-top:3rem;
+  margin-bottom:3rem;
+}
