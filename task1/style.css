@@ -174,10 +174,17 @@
 }
 
 .padding-y-10{
-  padding-bottom:10rem;
-  padding-top:10rem;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
 }
 
+.padding-top-3{
+  padding-top: 3rem;
+}
+
+.padding-bottom-3{
+  padding-bottom: 3rem;
+}
 /* Line height styles */
 
 .line-height-small{
