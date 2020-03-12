@@ -150,7 +150,11 @@
 }
 
 .margin-top-4{
-  margin-top: 4rem
+  margin-top: 4rem;
+}
+
+.margin-top-3{
+  margin-top: 3rem;
 }
 
 .margin-y-2{
@@ -199,4 +203,21 @@
 .card{
   margin-top:3rem;
   margin-bottom:3rem;
+}
+
+/* button styles */
+.btn{
+  text-transform: uppercase;
+}
+
+.btn-lg{
+  font-size: 1rem;
+  letter-spacing: 2.54px;
+  padding:1rem 8.5rem;
+}
+
+.btn-dark{
+  border: 2px solid #3c3c3c;
+  background-color: #3c3c3c;
+  color: #ffffff;
 }
