@@ -85,7 +85,7 @@
 
 /* container styles */
 .container{
-  width: 46%;
+  width: 900px;
   margin: 0 auto;
   position:relative;
 }
@@ -115,6 +115,12 @@
   top:-0.3rem;
   left:50%;
   transform: translate(-50%, -50%);
+}
+
+.container-flex{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-inner{
@@ -172,6 +178,11 @@
   margin-top: 8rem;
 }
 
+.padding-y-2{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
 .padding-y-8{
   padding-bottom: 8rem;
   padding-top: 8rem;
@@ -186,8 +197,16 @@
   padding-top: 3rem;
 }
 
+.padding-top-8{
+  padding-top: 8rem;
+}
+
 .padding-bottom-3{
   padding-bottom: 3rem;
+}
+
+.padding-right-2{
+  padding-right: 2rem;
 }
 /* Line height styles */
 
