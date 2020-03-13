@@ -9,6 +9,11 @@
   /* overflow-x: hidden; */
 }
 
+body{
+  min-height: 300px;
+  min-width: 1000px;
+}
+
 .header{
   background: url(./src/Layer_8.png) no-repeat top center/cover;
 }
@@ -329,9 +334,20 @@
 /* media queries */
 
 @media (max-height: 500px) {
- 
+ .hide-sm{
+   display: none;
+ }
+
+ .margin-y-0-sm{
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+ .margin-bottom-1-sm{
+   margin-bottom: 1rem;
+ }
 }
 
-@media (max-height: 1000px) {
-
+@media (max-height: 400px) {
+  
 }
