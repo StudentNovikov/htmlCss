@@ -79,6 +79,10 @@ body{
 
 /* Font styles */
 
+.single-line-text{
+  display:block;
+}
+
 .text-small{
   font-size: 0.875rem;
 }
@@ -164,7 +168,8 @@ body{
 }
 
 .container-tiny{
-  width: 500px;
+  width: 450px;
+  padding-top:2rem;
   margin: 0 auto;
 }
 
