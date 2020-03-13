@@ -14,11 +14,11 @@ body{
 }
 
 .header{
-  background: url(./src/bg_header.png) no-repeat top center/cover;
+  background: url(../assets/bg_header.png) no-repeat top center/cover;
 }
 
 .services{
-  background: url(./src/bg_services.png) no-repeat center center/cover;
+  background: url(../assets/bg_services.png) no-repeat center center/cover;
 }
 
 .view-height-100{
@@ -282,27 +282,27 @@ body{
 }
 
 .showcase-item-1{
-  background: url(./src/bg_topworkz.png) no-repeat center center/cover;
+  background: url(../assets/bg_topworkz.png) no-repeat center center/cover;
 }
 
 .showcase-item-2{
-  background: url(./src/bg_joint.png) no-repeat center center/cover;
+  background: url(../assets/bg_joint.png) no-repeat center center/cover;
 }
 
 .showcase-item-3{
-  background: url(./src/bg_market.png) no-repeat center center/cover;
+  background: url(../assets/bg_market.png) no-repeat center center/cover;
 }
 
 .showcase-item-4{
-  background: url(./src/bg_worktop.png) no-repeat center center/cover;
+  background: url(../assets/bg_worktop.png) no-repeat center center/cover;
 }
 
 .showcase-item-5{
-  background: url(./src/bg_lable.png) no-repeat center center/cover;
+  background: url(../assets/bg_lable.png) no-repeat center center/cover;
 }
 
 .showcase-item-6{
-  background: url(./src/bg_kyiv.png) no-repeat center center/cover;
+  background: url(../assets/bg_kyiv.png) no-repeat center center/cover;
 }
 
 .showcase-header{
@@ -336,7 +336,6 @@ body{
   background-color: #1d1d1d;
   color: #fffec7;
   transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out;
-  
 }
 
 /* media queries */
