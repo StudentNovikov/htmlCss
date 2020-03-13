@@ -14,11 +14,11 @@ body{
 }
 
 .header{
-  background: url(./src/Layer_8.png) no-repeat top center/cover;
+  background: url(./src/bg_header.png) no-repeat top center/cover;
 }
 
 .services{
-  background: url(./src/Layer_4.png) no-repeat center center/cover;
+  background: url(./src/bg_services.png) no-repeat center center/cover;
 }
 
 .view-height-100{
@@ -282,27 +282,27 @@ body{
 }
 
 .showcase-item-1{
-  background: url(./src/Layer_5_copy.png) no-repeat center center/cover;
+  background: url(./src/bg_topworkz.png) no-repeat center center/cover;
 }
 
 .showcase-item-2{
-  background: url(./src/Layer_5_copy_3.png) no-repeat center center/cover;
+  background: url(./src/bg_joint.png) no-repeat center center/cover;
 }
 
 .showcase-item-3{
-  background: url(./src/Layer_5_copy_2.png) no-repeat center center/cover;
+  background: url(./src/bg_market.png) no-repeat center center/cover;
 }
 
 .showcase-item-4{
-  background: url(./src/Layer_5_copy_4.png) no-repeat center center/cover;
+  background: url(./src/bg_worktop.png) no-repeat center center/cover;
 }
 
 .showcase-item-5{
-  background: url(./src/Layer_5_copy_5.png) no-repeat center center/cover;
+  background: url(./src/bg_lable.png) no-repeat center center/cover;
 }
 
 .showcase-item-6{
-  background: url(./src/Layer_5_copy_6.png) no-repeat center center/cover;
+  background: url(./src/bg_kyiv.png) no-repeat center center/cover;
 }
 
 .showcase-header{
