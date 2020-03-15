@@ -14,7 +14,15 @@ body{
 }
 
 .header{
+  height: 100vh;
   background: url(../assets/bg_header.png) no-repeat top center/cover;
+}
+
+.main-header{
+  margin-top:1.5rem;
+  margin-bottom:1.5rem;
+  font-size: 54px;
+  letter-spacing: 8.62px;
 }
 
 .services{
@@ -22,7 +30,7 @@ body{
 }
 
 .view-height-100{
-  height: 100vh;
+ 
 }
 
 /* Color styles */
@@ -94,11 +102,6 @@ body{
 .text-header{
   text-transform: uppercase;
   font-weight: 700;
-}
-
-.header-xl{
-  font-size: 54px;
-  letter-spacing: 8.62px;
 }
 
 .header-l{
@@ -350,11 +353,35 @@ body{
   transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+/* logo styles */
+.main-logo{
+  margin-bottom: 3.5rem;
+}
+
+.about{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.services{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 /* media queries */
 
 @media (max-height: 500px) {
  .hide-sm{
    display: none;
+ }
+
+ .main-header-sm{
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+
+ .main-logo-sm{
+   margin-bottom: 1rem;
  }
 
  .margin-y-0-sm{
