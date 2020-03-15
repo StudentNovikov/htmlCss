@@ -1,2 +1,2 @@
 # htmlCss
-  Task1: basic.ellipsis
+  Task1: basic.ellipsis + fix
