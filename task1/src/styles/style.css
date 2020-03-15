@@ -21,8 +21,8 @@ body{
 .main-header{
   margin-top:1.5rem;
   margin-bottom:1.5rem;
-  font-size: 54px;
-  letter-spacing: 8.62px;
+  font-size: 3.375rem;
+  letter-spacing: 0.53875rem;
 }
 
 .services{
@@ -39,9 +39,9 @@ body{
 }
 
 .border{
-  border-bottom-width: 2px;
-  border-left-width: 2px;
-  border-right-width: 2px;
+  border-bottom-width: 0.125rem;
+  border-left-width: 0.125rem;
+  border-right-width: 0.125rem;
   border-bottom-style: solid;
   border-right-style: solid;
   border-left-style: solid;
@@ -50,7 +50,7 @@ body{
 .border-left{
   right: 75%;
   left: 0;
-  border-top-width: 2px;
+  border-top-width: 0.125rem;
   border-top-style: solid;
   position: absolute;
   top: 0;
@@ -63,7 +63,7 @@ body{
 .border-right{
   right: 0;
   left: 75%;
-  border-top-width: 2px;
+  border-top-width: 0.125rem;
   border-top-style: solid;
   position: absolute;
   top: 0;
@@ -101,22 +101,18 @@ body{
 }
 
 .header-l{
-  font-size: 34px;
-}
-
-.header-m{
-  font-size: 26px;
+  font-size: 2.125rem;
 }
 
 .header-s{
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .description{
-  font-size: 15px;
-  letter-spacing: 0.9px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.05625rem;
   font-weight: 400 !important;
-  line-height: 29px;
+  line-height: 1.8125rem;
 }
 
 /* container styles */
@@ -206,7 +202,8 @@ body{
 }
 
 .showcase-item{
-  height:237px;
+  height:15vh;
+  min-height:237px;
   position:relative;
   margin: 0.5rem;
   margin-left:0;
@@ -214,8 +211,8 @@ body{
 }
 
 .showcase-item:hover{
-  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
-  border-radius: 8px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
+  border-radius: 0.5rem;
   transition: box-shadow .15s ease-in-out, border-radius .15s ease-in-out;
 }
 
@@ -267,7 +264,7 @@ body{
 
 .btn-lg{
   font-size: 1rem;
-  letter-spacing: 2.54px;
+  letter-spacing: 0.15875rem;
   padding: 1rem 8.5rem;
   margin-top: 3rem;
 }
