@@ -121,7 +121,8 @@ body{
 
 /* container styles */
 .container{
-  width: 900px;
+  width: 65%;
+  min-width: 900px;
   margin: 0 auto;
   position:relative;
   padding:4rem 0;
@@ -162,13 +163,15 @@ body{
 }
 
 .container-inner{
-  width: 600px;
+  width:60%;
+  min-width: 600px;
   margin: 0 auto;
 }
 
 .container-tiny{
-  width: 450px;
-  padding-top:2rem;
+  width:40%;
+  min-width: 450px;
+  padding-top: 2rem;
   margin: 0 auto;
 }
 
@@ -317,15 +320,6 @@ body{
  }
 
  .main-logo-sm{
-   margin-bottom: 1rem;
- }
-
- .margin-y-0-sm{
-   margin-top: 0;
-   margin-bottom: 0;
- }
-
- .margin-bottom-1-sm{
    margin-bottom: 1rem;
  }
 }
