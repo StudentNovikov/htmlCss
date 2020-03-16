@@ -13,6 +13,19 @@ body{
   min-width: 1000px;
 }
 
+::-webkit-scrollbar{
+  height: 0.1px;           
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #ccc;
+}
 .header{
   height: 100vh;
   background: url(../assets/bg_header.png) no-repeat top right/cover;
@@ -22,7 +35,7 @@ body{
   margin-top:1.5rem;
   margin-bottom:1.5rem;
   font-size: 3.375rem;
-  letter-spacing: 0.53875rem;
+  letter-spacing: 0.54rem;
 }
 
 .services{
@@ -109,10 +122,11 @@ body{
 }
 
 .description{
-  font-size: 0.9375rem;
-  letter-spacing: 0.05625rem;
+  text-transform: uppercase;
+  font-size: 0.94rem;
+  letter-spacing: 0.06rem;
   font-weight: 400 !important;
-  line-height: 1.8125rem;
+  line-height: 1.8rem;
 }
 
 /* container styles */
@@ -136,6 +150,10 @@ body{
   top:90%;
   left:50%;
   transform: translate(-50%, -50%);
+}
+
+.mouse-icon{
+  outline:inherit;
 }
 
 .container-header{
@@ -165,7 +183,7 @@ body{
 }
 
 .container-tiny{
-  width:40%;
+  width:70%;
   min-width: 450px;
   padding-top: 2rem;
   margin: 0 auto;
@@ -202,7 +220,7 @@ body{
 }
 
 .showcase-item{
-  height:15vh;
+  height:20vh;
   min-height:237px;
   position:relative;
   margin: 0.5rem;
@@ -249,6 +267,7 @@ body{
 }
 
 .showcase-header{
+  outline:inherit;
   position: absolute;
   top:70%;
   left:6%;
@@ -264,7 +283,7 @@ body{
 
 .btn-lg{
   font-size: 1rem;
-  letter-spacing: 0.15875rem;
+  letter-spacing: 0.16rem;
   padding: 1rem 8.5rem;
   margin-top: 3rem;
 }
@@ -321,3 +340,83 @@ body{
  }
 }
 
+@media (max-width: 1920px) {
+  :root{
+    font-size:16px !important;
+  }
+}
+
+@media (min-width: 1921px) {
+  .main-logo, .small-logo, .card-icon, .mouse-icon{
+    transform: scale(1.3);
+  }
+
+  :root{
+    font-size:24px;
+  }
+
+  .main-logo-xl{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 2600px) {
+  .main-logo, .small-logo , .card-icon, .mouse-icon{
+    transform: scale(1.8);
+  }
+
+  :root{
+    font-size:32px;
+  }
+}
+
+
+@media (min-width: 3600px) {
+  .main-logo, .small-logo , .card-icon, .mouse-icon{
+    transform: scale(2.1);
+  }
+
+  :root{
+    font-size:42px;
+  }
+}
+
+@media (min-width: 4600px) {
+  .main-logo, .small-logo , .card-icon, .mouse-icon{
+    transform: scale(2.5);
+  }
+
+  :root{
+    font-size:48px;
+  }
+}
+
+@media (min-width: 6000px) {
+  .main-logo, .small-logo , .card-icon, .mouse-icon{
+    transform: scale(3.5);
+  }
+
+  :root{
+    font-size:70px;
+  }
+}
+
+@media (min-width: 7600px) {
+  .main-logo, .small-logo , .card-icon, .mouse-icon{
+    transform: scale(4);
+  }
+
+  :root{
+    font-size:84px;
+  }
+}
+
+@media (min-width: 8200px) {
+  .main-logo, .small-logo , .card-icon, .mouse-icon{
+    transform: scale(4.4);
+  }
+
+  :root{
+    font-size:104px;
+  }
+}
