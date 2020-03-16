@@ -15,7 +15,7 @@ body{
 
 .header{
   height: 100vh;
-  background: url(../assets/bg_header.png) no-repeat top center/cover;
+  background: url(../assets/bg_header.png) no-repeat top right/cover;
 }
 
 .main-header{
@@ -288,8 +288,8 @@ body{
 }
 
 .about{
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .services, .what-we-do{
