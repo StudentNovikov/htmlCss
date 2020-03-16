@@ -35,7 +35,7 @@ body{
   margin-top:1.5rem;
   margin-bottom:1.5rem;
   font-size: 3.375rem;
-  letter-spacing: 0.53875rem;
+  letter-spacing: 0.54rem;
 }
 
 .services{
@@ -122,10 +122,10 @@ body{
 }
 
 .description{
-  font-size: 0.9375rem;
-  letter-spacing: 0.05625rem;
+  font-size: 0.94rem;
+  letter-spacing: 0.06rem;
   font-weight: 400 !important;
-  line-height: 1.8125rem;
+  line-height: 1.8rem;
 }
 
 /* container styles */
@@ -282,7 +282,7 @@ body{
 
 .btn-lg{
   font-size: 1rem;
-  letter-spacing: 0.15875rem;
+  letter-spacing: 0.16rem;
   padding: 1rem 8.5rem;
   margin-top: 3rem;
 }
