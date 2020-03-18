@@ -1,7 +1,11 @@
+@import './partials/variables';
 @import './partials/mediaQueries';
 @import './partials/header';
 
 body {  
+
+  box-sizing:border-box;
+
   @include for-size(phone) {    
     background-color: blueviolet;
   }

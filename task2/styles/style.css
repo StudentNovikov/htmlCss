@@ -1,21 +1,28 @@
 .header {
   height: 30px;
+  line-height: 30px;
   font-size: 10px;
-  background-color: #68899a;
+  background-color: #d9e1e6;
   color: #868f93;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
+  .header .close-icon {
+    float: right;
+    font-size: 15px; }
 
-@media (max-width: 767px) {
-  body {
-    background-color: blueviolet; } }
-@media (min-width: 768px) {
-  body {
-    background-color: yellow; } }
-@media (min-width: 992px) {
-  body {
-    background-color: orangered; } }
-@media (min-width: 1200px) {
-  body {
-    background-color: greenyellow; } }
+body {
+  box-sizing: border-box; }
+  @media (max-width: 767px) {
+    body {
+      background-color: blueviolet; } }
+  @media (min-width: 768px) {
+    body {
+      background-color: yellow; } }
+  @media (min-width: 992px) {
+    body {
+      background-color: orangered; } }
+  @media (min-width: 1200px) {
+    body {
+      background-color: greenyellow; } }
 
 /*# sourceMappingURL=style.css.map */
