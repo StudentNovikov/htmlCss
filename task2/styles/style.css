@@ -20,6 +20,10 @@ body * {
   .container {
     width: 80%;
     margin: 0 auto; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 70%;
+    margin: 0 auto; } }
 
 .header {
   background-color: #d9e1e6;
@@ -48,5 +52,9 @@ body * {
     font-size: 10px;
     color: #868f93;
     text-transform: uppercase; }
+
+.logo .container {
+  display: flex;
+  justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
