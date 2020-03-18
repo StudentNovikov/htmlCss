@@ -1,19 +1,20 @@
-@use "./partials/mediaQueries";
+@import './partials/mediaQueries';
+@import './partials/header';
 
 body {  
-  @include mediaQueries.for-size(phone) {    
+  @include for-size(phone) {    
     background-color: blueviolet;
   }
 
-  @include mediaQueries.for-size(tablet) {    
+  @include for-size(tablet) {    
     background-color: yellow;
   }
 
-  @include mediaQueries.for-size(desktop) {    
+  @include for-size(desktop) {    
     background-color: orangered;
   }
 
-  @include mediaQueries.for-size(large-desktop) {    
+  @include for-size(large-desktop) {    
     background-color: greenyellow;
   }
 }
