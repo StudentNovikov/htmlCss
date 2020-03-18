@@ -2,33 +2,44 @@ $headerHeight : 30px;
 
 .header{
   background-color: #d9e1e6;
-  height: $headerHeight;
   line-height: $headerHeight;
 
+  .check{
+    display: none;
+  }
+
+  .check:checked ~ *{
+    display: none;
+  }
+
+  .checkbtn{
+    float: right;
+    cursor: pointer;
+  }
+
+  .close-icon{
+    font-size: 19px;
+    
+    @include for-size(phone) {    
+      padding-right:1rem;
+    }
+
+    @include for-size(tablet) {    
+      padding-right:1.5rem;
+    }
+
+    @include for-size(desktop) {    
+     padding-left:0;
+    }
+  }
+
   .header-message{
+    text-align: center;
+    height: $headerHeight;
     
     font-size: 10px;
     color: #868f93;
     text-transform: uppercase;
-    text-align: center;
-  
-    .close-icon{
-      float: right;
-      font-size: 19px;
-      cursor: pointer;
-      
-      @include for-size(phone) {    
-        padding-right:1rem;
-      }
-  
-      @include for-size(tablet) {    
-        padding-right:1.5rem;
-      }
-  
-      @include for-size(desktop) {    
-       padding-left:0;
-      }
-    }
   }
 }
 
