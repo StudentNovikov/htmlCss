@@ -1,4 +1,14 @@
-body {
-  background: #fff; }
+@media (max-width: 767px) {
+  body {
+    background-color: blueviolet; } }
+@media (min-width: 768px) {
+  body {
+    background-color: yellow; } }
+@media (min-width: 992px) {
+  body {
+    background-color: orangered; } }
+@media (min-width: 1200px) {
+  body {
+    background-color: greenyellow; } }
 
 /*# sourceMappingURL=style.css.map */

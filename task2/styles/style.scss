@@ -1,6 +1,29 @@
-$gray: #fff;
-
-body{
-  background: $gray;
+@mixin for-size($size) {
+  @if $size == phone {
+    @media (max-width: 767px) { @content; }
+  } @else if $size == tablet {
+    @media (min-width: 768px) { @content; }
+  } @else if $size == desktop {
+    @media (min-width: 992px) { @content; }
+  } @else if $size == large-desktop {
+    @media (min-width: 1200px) { @content; }
+  } 
 }
 
+body {  
+  @include for-size(phone) {    
+    background-color: blueviolet;
+  }
+
+  @include for-size(tablet) {    
+    background-color: yellow;
+  }
+
+  @include for-size(desktop) {    
+    background-color: orangered;
+  }
+
+  @include for-size(large-desktop) {    
+    background-color: greenyellow;
+  }
+}
