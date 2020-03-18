@@ -1,24 +1,6 @@
 @import './partials/variables';
 @import './partials/mediaQueries';
+@import './partials/body';
+@import './partials/container';
 @import './partials/header';
 
-body {  
-
-  box-sizing:border-box;
-
-  @include for-size(phone) {    
-    background-color: blueviolet;
-  }
-
-  @include for-size(tablet) {    
-    background-color: yellow;
-  }
-
-  @include for-size(desktop) {    
-    background-color: orangered;
-  }
-
-  @include for-size(large-desktop) {    
-    background-color: greenyellow;
-  }
-}

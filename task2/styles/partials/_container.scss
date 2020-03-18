@@ -1,0 +1,6 @@
+.container {  
+  @include for-size(desktop) {  
+    width:80%;
+    margin:0 auto;  
+  }
+}

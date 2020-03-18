@@ -1,0 +1,23 @@
+body {  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  @include for-size(phone) {    
+    background-color: blueviolet;
+  }
+
+  @include for-size(tablet) {    
+    background-color: yellow;
+  }
+
+  @include for-size(desktop) {    
+    background-color: orangered;
+  }
+
+  @include for-size(large-desktop) {    
+    background-color: greenyellow;
+  }
+}

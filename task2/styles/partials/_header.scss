@@ -1,17 +1,36 @@
 $headerHeight : 30px;
 
 .header{
+  background-color: #d9e1e6;
   height: $headerHeight;
   line-height: $headerHeight;
-  font-size: 10px;
-  background-color: #d9e1e6;
-  color: #868f93;
-  text-transform: uppercase;
-  text-align: center;
 
-  .close-icon{
-    float: right;
-    font-size: 15px;
+  .header-message{
+    
+    font-size: 10px;
+    color: #868f93;
+    text-transform: uppercase;
+    text-align: center;
+  
+    .close-icon{
+      float: right;
+      font-size: 19px;
+      cursor: pointer;
+      
+      @include for-size(phone) {    
+        padding-right:1rem;
+      }
+  
+      @include for-size(tablet) {    
+        padding-right:1.5rem;
+      }
+  
+      @include for-size(desktop) {    
+       padding-left:0;
+      }
+    }
   }
 }
+
+
 
