@@ -3,4 +3,9 @@
     width:80%;
     margin:0 auto;  
   }
+
+  @include for-size(large-desktop) {  
+    width:70%;
+    margin:0 auto;  
+  }
 }
