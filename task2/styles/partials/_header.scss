@@ -1,7 +1,5 @@
-$headerHeight : 30px;
-
 .header{
-  background-color: #d9e1e6;
+  background-color: $header-bgcolor;
   line-height: $headerHeight;
 
   .check{
@@ -36,7 +34,7 @@ $headerHeight : 30px;
     height: $headerHeight;
     
     font-size: 10px;
-    color: #868f93;
+    color: $header-text;
     text-transform: uppercase;
   }
 }
