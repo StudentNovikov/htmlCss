@@ -1,9 +1,11 @@
 body {  
   *{
-    padding: 0;
-    margin: 0;
     box-sizing:border-box;
     font-family: 'Lato', sans-serif;
+  }
+
+  h5{
+    margin:0;
   }
   @include for-size(phone) {    
     background-color: blueviolet;

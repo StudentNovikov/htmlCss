@@ -18,8 +18,6 @@ $headerHeight : 30px;
   }
 
   .close-icon{
-    font-size: 19px;
-    
     @include for-size(phone) {    
       padding-right:1rem;
     }
@@ -29,7 +27,7 @@ $headerHeight : 30px;
     }
 
     @include for-size(desktop) {    
-     padding-left:0;
+     padding-right:0;
     }
   }
 
