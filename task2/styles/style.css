@@ -226,5 +226,7 @@ nav {
       color: #68899a; }
   .item .item-description {
     color: #555555; }
+    .item .item-description .list * {
+      margin: 0.5rem 0; }
 
 /*# sourceMappingURL=style.css.map */
