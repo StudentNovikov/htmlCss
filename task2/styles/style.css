@@ -129,13 +129,14 @@ nav {
     nav #nav-check:checked ~ ul {
       left: 0; } }
 
-.footer .footer-message {
-  color: #b5b5b5;
-  font-size: 13px;
-  font-weight: 400;
-  padding: 2rem 0;
-  text-align: center;
-  height: 30px; }
+.footer {
+  border-top: #e1e1e1 1px solid;
+  padding: 2rem 0; }
+  .footer .footer-message {
+    color: #b5b5b5;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center; }
 
 .main {
   display: flex;
@@ -152,7 +153,7 @@ nav {
   display: flex;
   justify-content: space-between; }
   .pictures .pic-thumbnails * {
-    max-width: 23%; }
+    width: 23%; }
 @media (min-width: 768px) {
   .pictures {
     width: 55%; } }
