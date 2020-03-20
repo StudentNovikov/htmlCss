@@ -14,7 +14,7 @@ body h5 {
     background-color: orangered; } }
 @media (min-width: 1200px) {
   body {
-    background-color: greenyellow; } }
+    background-color: #ffffff; } }
 
 @media (min-width: 992px) {
   .container {
@@ -51,8 +51,23 @@ body h5 {
     color: #868f93;
     text-transform: uppercase; }
 
+.button, .button-golden {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 1rem 2rem; }
+  .button-golden {
+    color: #111111;
+    font-weight: 400;
+    border: 2px solid #ded3aa; }
+
 .logo {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0; }
+  .logo .lang {
+    padding: 1rem; }
+  .logo .rus-select {
+    background-image: url(../../assets/RUS_icon.png); }
 
 /*# sourceMappingURL=style.css.map */

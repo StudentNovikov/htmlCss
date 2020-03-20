@@ -1,4 +1,12 @@
 .logo{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    padding:3rem 0;
+
+    .lang{
+      padding:1rem;
+    }
+
+    .rus-select{ background-image:url(../../assets/RUS_icon.png); }
 }
