@@ -1,11 +1,12 @@
 .container {  
   @include for-size(desktop) {  
-    width:70%;
+    width:85%;
     margin:0 auto;  
   }
 
   @include for-size(large-desktop) {  
     width:60%;
+    min-width: 1000px;
     margin:0 auto;  
   }
 }

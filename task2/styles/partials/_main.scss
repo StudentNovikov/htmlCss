@@ -1,5 +1,11 @@
 .main{
   display:flex;
+
+  @include for-size(phone) {    
+    flex-direction: column;
+  }
+
+ 
 }
 
 @import './pictures';

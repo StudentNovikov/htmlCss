@@ -18,11 +18,12 @@ body h5 {
 
 @media (min-width: 992px) {
   .container {
-    width: 70%;
+    width: 85%;
     margin: 0 auto; } }
 @media (min-width: 1200px) {
   .container {
     width: 60%;
+    min-width: 1000px;
     margin: 0 auto; } }
 
 .header {
@@ -110,9 +111,8 @@ nav {
     nav ul {
       position: relative;
       width: 100%;
-      height: 100vh;
       background: #2c3e50;
-      top: 90px;
+      top: 60px;
       left: -100%;
       text-align: center;
       transition: all .5s; }
@@ -140,5 +140,31 @@ nav {
 
 .main {
   display: flex; }
+  @media (max-width: 767px) {
+    .main {
+      flex-direction: column; } }
+
+.pictures {
+  min-height: 500px;
+  background: #000; }
+  .pictures:after {
+    font-size: 3rem;
+    color: white;
+    content: "PICTURES"; }
+  @media (min-width: 768px) {
+    .pictures {
+      width: 55%; } }
+
+.description {
+  height: 400px;
+  background: burlywood; }
+  .description:after {
+    font-size: 3rem;
+    color: white;
+    content: "DESCRIPTION"; }
+  @media (min-width: 768px) {
+    .description {
+      width: 45%;
+      margin-left: 1.4rem; } }
 
 /*# sourceMappingURL=style.css.map */

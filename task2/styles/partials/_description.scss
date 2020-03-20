@@ -1,3 +1,14 @@
 .description{
-  
+
+  &:after{
+    font-size:3rem;
+    color:white;
+    content: "DESCRIPTION";
+  }
+  height: 400px;
+  background: burlywood;
+  @include for-size(tablet) {    
+    width: 45%;
+    margin-left:1.4rem;
+  }
 }

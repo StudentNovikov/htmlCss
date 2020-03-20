@@ -1,3 +1,14 @@
 .pictures{
-  
+
+  &:after{
+    font-size:3rem;
+    color:white;
+    content: "PICTURES";
+  }
+  min-height: 500px;
+  background: #000;
+  @include for-size(tablet) {    
+    width: 55%;
+  }
+
 }
