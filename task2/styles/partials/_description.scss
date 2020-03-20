@@ -1,4 +1,7 @@
 .description{
+  img{
+    
+  }
 
   &:after{
     font-size:3rem;
@@ -9,6 +12,6 @@
   background: burlywood;
   @include for-size(tablet) {    
     width: 45%;
-    margin-left:1.4rem;
+    padding-left:1.2rem;
   }
 }
