@@ -1,0 +1,18 @@
+.item-avaliability {
+  font-size: 14px;
+  padding-top: 0.1rem;
+
+  &  *{
+    margin: 0.4rem 0;
+  }
+
+  .param {
+    font-weight: 400;
+    color: #111111;
+  }
+
+  .param-value {
+    font-weight: 300;
+    color: $primary-accent;
+  }
+}

@@ -213,5 +213,16 @@ nav {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase; }
+  .description .item-avaliability {
+    font-size: 14px;
+    padding-top: 0.1rem; }
+    .description .item-avaliability * {
+      margin: 0.4rem 0; }
+    .description .item-avaliability .param {
+      font-weight: 400;
+      color: #111111; }
+    .description .item-avaliability .param-value {
+      font-weight: 300;
+      color: #68899a; }
 
 /*# sourceMappingURL=style.css.map */
