@@ -1,4 +1,4 @@
-.item-info {
+.item-header {
   .stars {
     display: inline-flex;
     flex-direction: row-reverse;
@@ -28,7 +28,7 @@
     }
   }
 
-  .description-title {
+  .item-title {
     font-size: 24px;
     font-weight: 700;
   }

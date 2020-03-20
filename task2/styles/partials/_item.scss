@@ -1,6 +1,6 @@
 @import "./link";
 
-.description {
+.item {
   padding-left: 1.2rem;
   font-size: 14px;
   font-weight: 400;
@@ -21,8 +21,7 @@
     }
   }
   
-  @import "./itemInfo";
+  @import "./itemHeader";
   @import "./itemAvaliability";
-  
 }
 

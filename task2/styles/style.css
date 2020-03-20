@@ -164,64 +164,64 @@ nav {
   text-decoration: underline;
   text-transform: uppercase; }
 
-.description {
+.item {
   padding-left: 1.2rem;
   font-size: 14px;
   font-weight: 400;
   height: 500px;
   background: burlywood; }
   @media (min-width: 768px) {
-    .description {
+    .item {
       width: 45%; } }
-  .description .back-to {
+  .item .back-to {
     color: #68899a;
     text-transform: capitalize;
     cursor: pointer; }
-    .description .back-to:hover {
+    .item .back-to:hover {
       text-decoration: underline; }
-  .description .item-info .stars {
+  .item .item-header .stars {
     display: inline-flex;
     flex-direction: row-reverse;
     padding-right: 0.6rem; }
-    .description .item-info .stars input.star {
+    .item .item-header .stars input.star {
       display: none; }
-    .description .item-info .stars label.star {
+    .item .item-header .stars label.star {
       font-size: 18px;
       color: #444; }
-    .description .item-info .stars label.star:before {
+    .item .item-header .stars label.star:before {
       content: "\2606"; }
-    .description .item-info .stars input.star:checked ~ label.star:before,
-    .description .item-info .stars input.star:hover ~ label.star:before {
+    .item .item-header .stars input.star:checked ~ label.star:before,
+    .item .item-header .stars input.star:hover ~ label.star:before {
       content: "\2605";
       color: gold; }
-    .description .item-info .stars input.star5:checked ~ label.star:before,
-    .description .item-info .stars input.star5:hover ~ label.star5:before {
+    .item .item-header .stars input.star5:checked ~ label.star:before,
+    .item .item-header .stars input.star5:hover ~ label.star5:before {
       color: red; }
-    .description .item-info .stars input.star1:checked ~ label.star:before,
-    .description .item-info .stars input.star1:hover ~ label.star1:before {
+    .item .item-header .stars input.star1:checked ~ label.star:before,
+    .item .item-header .stars input.star1:hover ~ label.star1:before {
       color: #ffe448; }
-  .description .item-info .description-title {
+  .item .item-header .item-title {
     font-size: 24px;
     font-weight: 700; }
-  .description .item-info .reviews,
-  .description .item-info .delimiter {
+  .item .item-header .reviews,
+  .item .item-header .delimiter {
     color: #555555; }
-  .description .item-info .delimiter {
+  .item .item-header .delimiter {
     padding: 0 0.6rem; }
-  .description .item-info .price {
+  .item .item-header .price {
     color: #68899a;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase; }
-  .description .item-avaliability {
+  .item .item-avaliability {
     font-size: 14px;
     padding-top: 0.1rem; }
-    .description .item-avaliability * {
+    .item .item-avaliability * {
       margin: 0.4rem 0; }
-    .description .item-avaliability .param {
+    .item .item-avaliability .param {
       font-weight: 400;
       color: #111111; }
-    .description .item-avaliability .param-value {
+    .item .item-avaliability .param-value {
       font-weight: 300;
       color: #68899a; }
 
