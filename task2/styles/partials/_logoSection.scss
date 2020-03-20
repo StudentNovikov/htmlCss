@@ -8,4 +8,5 @@
       padding:1rem;
     }
 
+    option:checked[value="rus"] ~ img { display:none; }
 }

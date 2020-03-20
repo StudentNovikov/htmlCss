@@ -70,6 +70,8 @@ body h5 {
   padding: 3rem 0; }
   .logo .lang {
     padding: 1rem; }
+  .logo option:checked[value="rus"] ~ img {
+    display: none; }
 
 nav {
   width: 100%;
