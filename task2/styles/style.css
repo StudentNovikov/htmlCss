@@ -224,5 +224,7 @@ nav {
     .item .item-avaliability .param-value {
       font-weight: 300;
       color: #68899a; }
+  .item .item-description {
+    color: #555555; }
 
 /*# sourceMappingURL=style.css.map */
