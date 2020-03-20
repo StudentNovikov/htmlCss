@@ -168,47 +168,50 @@ nav {
   padding-left: 1.2rem;
   font-size: 14px;
   font-weight: 400;
-  height: 400px;
+  height: 500px;
   background: burlywood; }
+  @media (min-width: 768px) {
+    .description {
+      width: 45%; } }
   .description .back-to {
     color: #68899a;
     text-transform: capitalize;
     cursor: pointer; }
-  .description .back-to:hover {
-    text-decoration: underline; }
-  .description .stars {
+    .description .back-to:hover {
+      text-decoration: underline; }
+  .description .item-info .stars {
     display: inline-flex;
     flex-direction: row-reverse;
     padding-right: 0.6rem; }
-    .description .stars input.star {
+    .description .item-info .stars input.star {
       display: none; }
-    .description .stars label.star {
+    .description .item-info .stars label.star {
       font-size: 18px;
       color: #444; }
-    .description .stars label.star:before {
-      content: '\2606'; }
-    .description .stars input.star:checked ~ label.star:before, .description .stars input.star:hover ~ label.star:before {
-      content: '\2605';
+    .description .item-info .stars label.star:before {
+      content: "\2606"; }
+    .description .item-info .stars input.star:checked ~ label.star:before,
+    .description .item-info .stars input.star:hover ~ label.star:before {
+      content: "\2605";
       color: gold; }
-    .description .stars input.star5:checked ~ label.star:before, .description .stars input.star5:hover ~ label.star5:before {
+    .description .item-info .stars input.star5:checked ~ label.star:before,
+    .description .item-info .stars input.star5:hover ~ label.star5:before {
       color: red; }
-    .description .stars input.star1:checked ~ label.star:before, .description .stars input.star1:hover ~ label.star1:before {
+    .description .item-info .stars input.star1:checked ~ label.star:before,
+    .description .item-info .stars input.star1:hover ~ label.star1:before {
       color: #ffe448; }
-  .description .description-title {
+  .description .item-info .description-title {
     font-size: 24px;
     font-weight: 700; }
-  .description .reviews,
-  .description .delimiter {
+  .description .item-info .reviews,
+  .description .item-info .delimiter {
     color: #555555; }
-  .description .delimiter {
+  .description .item-info .delimiter {
     padding: 0 0.6rem; }
-  .description .price {
+  .description .item-info .price {
     color: #68899a;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase; }
-  @media (min-width: 768px) {
-    .description {
-      width: 45%; } }
 
 /*# sourceMappingURL=style.css.map */
