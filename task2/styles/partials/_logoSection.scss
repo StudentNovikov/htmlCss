@@ -1,12 +1,14 @@
-.logo{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:3rem 0;
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
 
-    .lang{
-      padding:1rem;
-    }
+  .lang {
+    padding: 1rem;
+  }
 
-    option:checked[value="rus"] ~ img { display:none; }
+  option:checked[value="rus"] ~ img {
+    display: none;
+  }
 }

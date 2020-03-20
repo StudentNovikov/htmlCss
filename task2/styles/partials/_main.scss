@@ -1,12 +1,11 @@
-.main{
-  display:flex;
+.main {
+  display: flex;
+  padding: 2rem 0;
 
-  @include for-size(phone) {    
+  @include for-size(phone) {
     flex-direction: column;
   }
-
- 
 }
 
-@import './pictures';
-@import './description';
+@import "./pictures";
+@import "./description";

@@ -139,7 +139,8 @@ nav {
   height: 30px; }
 
 .main {
-  display: flex; }
+  display: flex;
+  padding: 2rem 0; }
   @media (max-width: 767px) {
     .main {
       flex-direction: column; } }
@@ -157,16 +158,38 @@ nav {
   .pictures {
     width: 55%; } }
 
+.link {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: uppercase; }
+
 .description {
+  padding-left: 1.2rem;
+  font-size: 14px;
+  font-weight: 400;
   height: 400px;
   background: burlywood; }
-  .description:after {
-    font-size: 3rem;
-    color: white;
-    content: "DESCRIPTION"; }
+  .description .back-to {
+    color: #68899a;
+    text-transform: capitalize;
+    cursor: pointer; }
+  .description .back-to:hover {
+    text-decoration: underline; }
+  .description .description-title {
+    font-size: 24px;
+    font-weight: 700; }
+  .description .reviews, .description .delimiter {
+    color: #555555; }
+  .description .delimiter {
+    padding: 0 0.6rem; }
+  .description .price {
+    color: #68899a;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase; }
   @media (min-width: 768px) {
     .description {
-      width: 45%;
-      padding-left: 1.2rem; } }
+      width: 45%; } }
 
 /*# sourceMappingURL=style.css.map */

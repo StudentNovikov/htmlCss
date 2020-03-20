@@ -1,17 +1,43 @@
+@import './link';
+
 .description{
-  img{
-    
+  padding-left:1.2rem;
+  font-size: 14px;
+  font-weight: 400;
+
+  .back-to{
+    color: $primary-accent;
+    text-transform: capitalize;
+    cursor:pointer;
   }
 
-  &:after{
-    font-size:3rem;
-    color:white;
-    content: "DESCRIPTION";
+  .back-to:hover{
+    text-decoration: underline;
   }
+  
+  .description-title{
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .reviews , .delimiter{
+    color: #555555;
+  }
+
+  .delimiter{
+    padding:0 0.6rem;
+  }
+
+  .price{
+    color: $primary-accent;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
   height: 400px;
   background: burlywood;
   @include for-size(tablet) {    
     width: 45%;
-    padding-left:1.2rem;
   }
 }
