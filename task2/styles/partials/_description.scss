@@ -20,58 +20,8 @@
       text-decoration: underline;
     }
   }
-
-  .item-info {
-    .stars {
-      display: inline-flex;
-      flex-direction: row-reverse;
-      padding-right: 0.6rem;
-      input.star {
-        display: none;
-      }
-      label.star {
-        font-size: 18px;
-        color: #444;
-      }
-      label.star:before {
-        content: "\2606";
-      }
-      input.star:checked ~ label.star:before,
-      input.star:hover ~ label.star:before {
-        content: "\2605";
-        color: gold;
-      }
-      input.star5:checked ~ label.star:before,
-      input.star5:hover ~ label.star5:before {
-        color: red;
-      }
-      input.star1:checked ~ label.star:before,
-      input.star1:hover ~ label.star1:before {
-        color: rgb(255, 228, 72);
-      }
-    }
-
-    .description-title {
-      font-size: 24px;
-      font-weight: 700;
-    }
-
-    .reviews,
-    .delimiter {
-      color: #555555;
-    }
-
-    .delimiter {
-      padding: 0 0.6rem;
-    }
-
-    .price {
-      color: $primary-accent;
-      font-size: 24px;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-  }
+  
+  @import "./itemInfo";
+  
 }
 
-// to refactor:
