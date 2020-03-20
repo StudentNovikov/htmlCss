@@ -1,43 +1,40 @@
-.header{
+.header {
   background-color: $header-bgcolor;
   line-height: $headerHeight;
 
-  .check{
+  .check {
     display: none;
   }
 
-  .check:checked ~ *{
+  .check:checked ~ * {
     display: none;
   }
 
-  .checkbtn{
+  .checkbtn {
     float: right;
     cursor: pointer;
   }
 
-  .close-icon{
-    @include for-size(phone) {    
-      padding-right:1rem;
+  .close-icon {
+    @include for-size(phone) {
+      padding-right: 1rem;
     }
 
-    @include for-size(tablet) {    
-      padding-right:1.5rem;
+    @include for-size(tablet) {
+      padding-right: 1.5rem;
     }
 
-    @include for-size(desktop) {    
-     padding-right:0;
+    @include for-size(desktop) {
+      padding-right: 0;
     }
   }
 
-  .header-message{
+  .header-message {
     text-align: center;
     height: $headerHeight;
-    
+
     font-size: 10px;
     color: $header-text;
     text-transform: uppercase;
   }
 }
-
-
-

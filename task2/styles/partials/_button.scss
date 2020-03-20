@@ -1,16 +1,16 @@
-.button{
+.button {
   font-size: 12px;
   text-transform: uppercase;
   padding: 1rem 2rem;
   cursor: pointer;
 
-  &-golden{
+  &-golden {
     @extend .button;
     color: #111111;
     font-weight: 400;
     border: 2px solid #ded3aa;
 
-    &:hover{
+    &:hover {
       background-color: #eee;
     }
   }

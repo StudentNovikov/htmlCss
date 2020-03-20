@@ -1,20 +1,20 @@
-.pictures{
-  .main-picture{
+.pictures {
+  .main-picture {
     width: 100%;
     max-height: 100%;
   }
 
-  .pic-thumbnails{
-    padding:0.8rem 0;
+  .pic-thumbnails {
+    padding: 0.8rem 0;
     display: flex;
     justify-content: space-between;
 
-    & *{
+    & * {
       max-width: 23%;
     }
   }
-  
-  @include for-size(tablet) {    
+
+  @include for-size(tablet) {
     width: 55%;
   }
 }

@@ -1,34 +1,35 @@
-@import './link';
+@import "./link";
 
-.description{
-  padding-left:1.2rem;
+.description {
+  padding-left: 1.2rem;
   font-size: 14px;
   font-weight: 400;
 
-  .back-to{
+  .back-to {
     color: $primary-accent;
     text-transform: capitalize;
-    cursor:pointer;
+    cursor: pointer;
   }
 
-  .back-to:hover{
+  .back-to:hover {
     text-decoration: underline;
   }
-  
-  .description-title{
+
+  .description-title {
     font-size: 24px;
     font-weight: 700;
   }
 
-  .reviews , .delimiter{
+  .reviews,
+  .delimiter {
     color: #555555;
   }
 
-  .delimiter{
-    padding:0 0.6rem;
+  .delimiter {
+    padding: 0 0.6rem;
   }
 
-  .price{
+  .price {
     color: $primary-accent;
     font-size: 24px;
     font-weight: 700;
@@ -37,7 +38,7 @@
 
   height: 400px;
   background: burlywood;
-  @include for-size(tablet) {    
+  @include for-size(tablet) {
     width: 45%;
   }
 }
