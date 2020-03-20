@@ -138,4 +138,7 @@ nav {
   text-align: center;
   height: 30px; }
 
+.main {
+  display: flex; }
+
 /*# sourceMappingURL=style.css.map */
