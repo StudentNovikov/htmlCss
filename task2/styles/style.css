@@ -54,11 +54,14 @@ body h5 {
 .button, .button-golden {
   font-size: 12px;
   text-transform: uppercase;
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem;
+  cursor: pointer; }
   .button-golden {
     color: #111111;
     font-weight: 400;
     border: 2px solid #ded3aa; }
+    .button-golden:hover {
+      background-color: #eee; }
 
 .logo {
   display: flex;
