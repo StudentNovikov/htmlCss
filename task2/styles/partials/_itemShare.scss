@@ -5,6 +5,9 @@
   border-bottom: 1px #e1e1e1 solid;
   display: flex;
   justify-content: space-between;
+  color: $primary;
+  font-size: 11px;
+  font-weight: 300;
 
   .share-text {
     color: $primary-dark;
@@ -14,22 +17,38 @@
   }
 
   .share-buttons {
+    width:80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    .shares {
+      @include for-size(phone) {
+        display: none;
+      }
+
+      @include for-size(tablet) {
+        display: none;
+      }
+
+      @include for-size(desktop) {
+        display: inline;
+      }
+    }
 
     .like-buttons {
-      text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.4);
-      color: #ffffff;
-      font-size: 11px;
-      font-weight: 300;
-
       .like {
-        background-image: linear-gradient(to top, #3a53a3 0%, #4b67bc 100%);
+        background: linear-gradient(to top, #3a53a3 0%, #4b67bc 100%);
       }
 
       .share {
         background-image: linear-gradient(to top, #4c69bc 0%, #5a78d6 100%);
       }
+    }
+
+    .tweet {
+      color: #333333;
+      border: 1px solid #cccccc;
+      background-image: linear-gradient(to top, #dedede 0%, #ffffff 100%);
     }
   }
 }
