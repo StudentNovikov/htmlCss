@@ -4,11 +4,39 @@
   align-items: center;
   padding: 3rem 0;
 
-  .lang {
-    padding: 1rem;
-  }
+  .lang-select {
+    display: flex;
+    flex-direction: row-reverse;
 
-  option:checked[value="rus"] ~ img {
-    display: none;
+    select {
+      outline: inherit;
+      border: none;
+      background: #fff;
+    }
+
+    select[data-chosen="opt1"] ~ .red {
+      display: block;
+    }
+    select[data-chosen="opt2"] ~ .rus {
+      display: block;
+    }
+    select[data-chosen="opt2"] ~ .usd {
+      display: none;
+    }
+
+    .lang-icon {
+      max-width: 23px;
+      max-height: 23px;
+    }
+
+    .usd {
+      @extend .lang-icon;
+      display: block;
+    }
+
+    .rus {
+      @extend .lang-icon;
+      display: none;
+    }
   }
 }

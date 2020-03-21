@@ -22,14 +22,16 @@
   </header>
   <div class="container">
     <section class="logo">
-      <div>
-        <select class="lang" name="lang">
-          <option value="usd">USD</option>
-          <option value="rus">RUS</option>
+      <div class="lang-select">
+
+        <select onchange=" this.dataset.chosen = this.value; ">
+          <option value="opt1"> USD </option>
+          <option value="opt2"> RUS </option>
         </select>
 
-        <img src="./assets/USA_icon.png" class="usd-icon" alt="">
-        <img src="./assets/RUS_icon.png" class="rus-icon" alt="">
+        <img src="./assets/USA_icon.png" class="usd" alt="usd flag icon">
+        <img src="./assets/RUS_icon.png" class="rus" alt="rus flag icon">
+
       </div>
 
       <div>

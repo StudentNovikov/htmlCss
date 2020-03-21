@@ -69,10 +69,26 @@ body h5 {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 0; }
-  .logo .lang {
-    padding: 1rem; }
-  .logo option:checked[value="rus"] ~ img {
-    display: none; }
+  .logo .lang-select {
+    display: flex;
+    flex-direction: row-reverse; }
+    .logo .lang-select select {
+      outline: inherit;
+      border: none;
+      background: #fff; }
+    .logo .lang-select select[data-chosen="opt1"] ~ .red {
+      display: block; }
+    .logo .lang-select select[data-chosen="opt2"] ~ .rus {
+      display: block; }
+    .logo .lang-select select[data-chosen="opt2"] ~ .usd {
+      display: none; }
+    .logo .lang-select .lang-icon, .logo .lang-select .usd, .logo .lang-select .rus {
+      max-width: 23px;
+      max-height: 23px; }
+    .logo .lang-select .usd {
+      display: block; }
+    .logo .lang-select .rus {
+      display: none; }
 
 nav {
   width: 100%;
