@@ -4,9 +4,9 @@
   padding-left: 1.2rem;
   font-size: 14px;
   font-weight: 400;
-  height: 500px;
+  height: 800px;
 
-  background: burlywood;
+  // background: burlywood;
   @include for-size(tablet) {
     width: 45%;
   }

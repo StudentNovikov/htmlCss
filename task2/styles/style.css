@@ -184,8 +184,7 @@ nav {
   padding-left: 1.2rem;
   font-size: 14px;
   font-weight: 400;
-  height: 500px;
-  background: burlywood; }
+  height: 800px; }
   @media (min-width: 768px) {
     .item {
       width: 45%; } }
@@ -244,5 +243,44 @@ nav {
     color: #555555; }
     .item .item-description .list * {
       margin: 0.5rem 0; }
+  .item .item-form {
+    padding-top: 1rem; }
+    .item .item-form .form {
+      display: flex;
+      justify-content: space-between; }
+      .item .item-form .form .field-name {
+        display: block;
+        color: #111111;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase; }
+        .item .item-form .form .field-name ~ * {
+          margin-top: 0.5rem; }
+    .item .item-form input[type="reset"] {
+      margin: 2rem 0;
+      border: none;
+      display: block;
+      padding: 0;
+      background: #ffffff;
+      cursor: pointer; }
+    .item .item-form .buttons {
+      display: flex;
+      justify-content: space-between; }
+      .item .item-form .buttons * {
+        width: 48%;
+        padding: 1.5rem 0;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer; }
+      .item .item-form .buttons .add-btn {
+        background-color: #111111;
+        color: #ffffff; }
+        .item .item-form .buttons .add-btn:hover {
+          color: gold; }
+      .item .item-form .buttons .add-wishlist {
+        border: 1px solid #e1e1e1; }
+        .item .item-form .buttons .add-wishlist:hover {
+          background: #ccc; }
 
 /*# sourceMappingURL=style.css.map */
