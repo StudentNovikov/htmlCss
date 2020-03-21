@@ -282,5 +282,29 @@ nav {
         border: 1px solid #e1e1e1; }
         .item .item-form .buttons .add-wishlist:hover {
           background: #ccc; }
+  .item .item-share {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px #e1e1e1 solid;
+    border-bottom: 1px #e1e1e1 solid;
+    display: flex;
+    justify-content: space-between; }
+    .item .item-share .share-text {
+      color: #111111;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .item .item-share .share-buttons {
+      display: flex;
+      justify-content: space-around; }
+      .item .item-share .share-buttons .like-buttons {
+        text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.4);
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 300; }
+        .item .item-share .share-buttons .like-buttons .like {
+          background-image: linear-gradient(to top, #3a53a3 0%, #4b67bc 100%); }
+        .item .item-share .share-buttons .like-buttons .share {
+          background-image: linear-gradient(to top, #4c69bc 0%, #5a78d6 100%); }
 
 /*# sourceMappingURL=style.css.map */
