@@ -5,6 +5,9 @@
   border-bottom: 1px #e1e1e1 solid;
   display: flex;
   justify-content: space-between;
+  @include for-size(phone) {
+    justify-content: space-around;
+  }
   color: $primary;
   font-size: 11px;
   font-weight: 300;
@@ -14,12 +17,34 @@
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+
+    @include for-size(phone) {
+      display: none;
+    }
   }
 
   .share-buttons {
-    width:80%;
+    @include for-size(desktop) {
+      width: 90%;
+    }
+
+    @include for-size(large-desktop) {
+      width: 70%;
+    }
+
+    button {
+      @include for-size(phone) {
+        transform: scale(1.5);
+      }
+    }
+
+    width: 70%;
     display: flex;
     justify-content: space-between;
+
+    img {
+      max-height: 10px;
+    }
 
     .shares {
       @include for-size(phone) {
@@ -38,6 +63,9 @@
     .like-buttons {
       .like {
         background: linear-gradient(to top, #3a53a3 0%, #4b67bc 100%);
+        @include for-size(phone) {
+          margin-right: 1.5rem;
+        }
       }
 
       .share {

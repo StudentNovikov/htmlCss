@@ -8,7 +8,7 @@ body {
     margin: 0;
   }
   @include for-size(phone) {
-    background-color: blueviolet;
+    background-color: #eee;
   }
 
   @include for-size(tablet) {

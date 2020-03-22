@@ -5,7 +5,7 @@ body h5 {
   margin: 0; }
 @media (max-width: 767px) {
   body {
-    background-color: blueviolet; } }
+    background-color: #eee; } }
 @media (min-width: 768px) {
   body {
     background-color: yellow; } }
@@ -182,8 +182,7 @@ nav {
 .item {
   padding-left: 1.2rem;
   font-size: 14px;
-  font-weight: 400;
-  height: 800px; }
+  font-weight: 400; }
   @media (min-width: 768px) {
     .item {
       width: 45%; } }
@@ -291,15 +290,32 @@ nav {
     color: #555555;
     font-size: 11px;
     font-weight: 300; }
+    @media (max-width: 767px) {
+      .item .item-share {
+        justify-content: space-around; } }
     .item .item-share .share-text {
       color: #111111;
       font-size: 12px;
       font-weight: 700;
       text-transform: uppercase; }
+      @media (max-width: 767px) {
+        .item .item-share .share-text {
+          display: none; } }
     .item .item-share .share-buttons {
-      width: 80%;
+      width: 70%;
       display: flex;
       justify-content: space-between; }
+      @media (min-width: 992px) {
+        .item .item-share .share-buttons {
+          width: 90%; } }
+      @media (min-width: 1200px) {
+        .item .item-share .share-buttons {
+          width: 70%; } }
+      @media (max-width: 767px) {
+        .item .item-share .share-buttons button {
+          transform: scale(1.5); } }
+      .item .item-share .share-buttons img {
+        max-height: 10px; }
       @media (max-width: 767px) {
         .item .item-share .share-buttons .shares {
           display: none; } }
@@ -311,6 +327,9 @@ nav {
           display: inline; } }
       .item .item-share .share-buttons .like-buttons .like {
         background: linear-gradient(to top, #3a53a3 0%, #4b67bc 100%); }
+        @media (max-width: 767px) {
+          .item .item-share .share-buttons .like-buttons .like {
+            margin-right: 1.5rem; } }
       .item .item-share .share-buttons .like-buttons .share {
         background-image: linear-gradient(to top, #4c69bc 0%, #5a78d6 100%); }
       .item .item-share .share-buttons .tweet {
